@@ -1,0 +1,21 @@
+(gitpython) danhtran@MacBook-Pro Projects % python read_repository.py
+Repo at /Users/danhtran/Projects/Facebook successfully loaded.
+Repository description: Unnamed repository; edit this file 'description' to name the repository.
+Repository active branch is main
+Remote named "origin" with URL "https://github.com/dtran2009/Facebook.git"
+Last commit for repository is 80893cd154db15add347a17af9f716bcda228fc2.
+-----
+80893cd154db15add347a17af9f716bcda228fc2
+"Update MergeArray.cpp" by dtran2009 (dtran2009@users.noreply.github.com)
+2022-10-21 01:01:39-07:00
+count: 2 and size: 715
+-----
+905eb6d70b55e30a88728401c630cbc63a5b222a
+"Add files via upload" by dtran2009 (dtran2009@users.noreply.github.com)
+2022-10-20 23:19:11-07:00
+count: 1 and size: 666
+80893cd154db15add347a17af9f716bcda228fc2
+905eb6d70b55e30a88728401c630cbc63a5b222a
+M
+MergeArray.cpp -> MergeArray.cpp
+
