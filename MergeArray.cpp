@@ -2,6 +2,7 @@
 Author: Danh Tran
 Date: 10/20/2022
 File: MergeArray.cpp
+Revision: 2
 
 
 Output:
@@ -23,6 +24,10 @@ using namespace std;
 
 // Function declaration
 void mergeArray(int a[], int b[], int c[], int sizeofArrayA, int sizeofArrayB, int sizeofArrayC);
+void build(int revision);
+
+// Global variables
+string ERROR_STR = "Testing testing testing";
 
 
 /****************************************************************
@@ -52,6 +57,9 @@ int main()
     for(int i=0; i<length; i++) {
         cout<<" "<< c[i];
     }
+   
+    // Build function
+    build(1);
 
     return 0;
 }
@@ -82,5 +90,15 @@ void mergeArray(int a[], int b[], int c[], int sizeofArrayA, int sizeofArrayB, i
     }  
     
     sort(c, c + sizeofArrayC);//Sorting merge array
+}
+
+/****************************************************************
+   Build code
+
+* @param revision the git resivison number.
+*****************************************************************/
+void build(int revision)
+{
+   cout << "Revision: " << revision;
 }
 
